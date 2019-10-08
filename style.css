@@ -44,8 +44,8 @@
 }
 
 .bounty:hover {
-  background-color: yellow;
-  border-color: blue;
+  /*background-color: yellow;*/
+  border-color: #0000CD;
 }
 
 .bounty-amount {
