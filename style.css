@@ -1,3 +1,16 @@
 header h1 {
-	color: green;
+  color: green;
+}
+
+.bounty {
+  border-style: solid;
+  max-width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.bounty:hover {
+  background-color: yellow;
+  border-color: blue;
 }
