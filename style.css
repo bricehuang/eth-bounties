@@ -34,6 +34,13 @@
   padding: 0 40px;
 }
 
+@media (max-width: 479px) {
+  .bounties-container {
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+}
+
 .bounty {
   border-style: solid;
   padding: 5px 25px 15px 25px;
@@ -63,6 +70,12 @@ footer {
 
 h1 {
   font-family: "Source Code Pro", monospace;
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 28px;
+  }
 }
 
 h3 {
