@@ -51,7 +51,13 @@
 .bounty-amount {
   position: absolute;
   bottom: 0;
-  right: 10px;
+  right: 20px;
+}
+
+.bounty-setter {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
 }
 
 footer {
