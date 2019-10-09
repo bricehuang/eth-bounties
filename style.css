@@ -24,6 +24,7 @@
 .bounty {
   border-style: solid;
   padding: 10px 20px 35px 20px;
+  margin: 10px 0 0 0;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
