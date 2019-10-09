@@ -11,7 +11,13 @@
   max-width: 80%;
 }
 
+.header-img {
+  height: 350px;
+  margin-top: 30px;
+}
+
 .header-container {
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -23,7 +29,7 @@
 
 .bounty {
   border-style: solid;
-  padding: 10px 20px 35px 20px;
+  padding: 5px 25px 60px 25px;
   margin: 10px 0 0 0;
   border-radius: 10px;
   cursor: pointer;
@@ -39,16 +45,10 @@
   border-color: #0069ff;
 }
 
-.bounty-amount {
+.bounty-metadata {
   position: absolute;
-  bottom: 0;
-  right: 20px;
-}
-
-.bounty-setter {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
+  bottom: 10px;
+  left: 25px;
 }
 
 footer {
@@ -66,4 +66,5 @@ h3 {
 p {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
+  line-height: 1.3;
 }
