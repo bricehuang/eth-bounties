@@ -10,7 +10,7 @@ const BOUNTIES = [
 
 $.each(BOUNTIES, function(i, bounty){
   $('.bounties-container').append(
-    "<div class='bounty' onclick='location.href =" + bounty.link + " ;' >" +
+    "<div class='bounty' onclick='location.href = \"" + bounty.link + "\" ;' >" +
       "<h3>" + bounty.title + "</h3>" +
       "<p>" + bounty.description + "</p>" +
       "<div class='bounty-metadata'><p>Posted By: " + bounty.setter + "<br>" +
