@@ -29,7 +29,11 @@
   position: relative;
 }
 
-.bounty:hover {
+.desc-active {
+  color: #0000CD;
+}
+
+.bounty-active {
   /*background-color: yellow;*/
   border-color: #0000CD;
 }
