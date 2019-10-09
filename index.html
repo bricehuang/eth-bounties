@@ -2,36 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(function(){
-          $.getJSON('names.json',function(data){
-            console.log('success');
-            $.each(data.bounties,function(i,bounty){
-              $('.bounties-container').append(
-                "<div class='bounty' onclick='location.href =" + bounty.link + " ;' >" +
-                  "<h3>" + bounty.title + "</h3>" +
-                  "<p>" + bounty.description + "</p>" +
-                  "<p class='bounty-setter'>Posted By:" + bounty.setter + "</p>" +
-                  "<p class='bounty-amount'>Total Bounty:" + bounty.amount + "</p>" +
-                "</div>"
-              )
-              $('ul').append('<li>'+emp.firstName+' '+emp.lastName+'</li>');
-            });
-          }).error(function(){
-              console.log('error');
-          });
-      });
-    </script>
-    <script type="text/javascript" src="scripts.js" />
+    <script type="text/javascript" src="./scripts.js"></script>
     <title>Ethereum Bounties</title>
   </head>
 
   <body>
     <div class="container">
       <div class="header-container section-container">
-        <h1>Ethereum Bounties</h1>
+        <h1>bounties.ethereum</h1>
       </div>
 
       <div class="subtitle-container section-container">

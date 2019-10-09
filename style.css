@@ -30,12 +30,12 @@
 }
 
 .desc-active {
-  color: #0000CD;
+  color: #0069ff;
 }
 
 .bounty-active {
   /*background-color: yellow;*/
-  border-color: #0000CD;
+  border-color: #0069ff;
 }
 
 .bounty-amount {
@@ -54,7 +54,11 @@ footer {
   text-align: center;
 }
 
-h1, h3 {
+h1 {
+  font-family: "Source Code Pro", monospace;
+}
+
+h3 {
   font-family: "Helvetica Neue", sans-serif;
 }
 
