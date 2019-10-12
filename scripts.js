@@ -7,6 +7,13 @@ const BOUNTIES = [
     "amount": "$14,000 USD",
   },
   {
+    "title": "MiMC Hash Challenge",
+    "link": "http://mimchash.org/",
+    "description": "Rewards for finding collisions in the MiMCSponge hash function.",
+    "setter": "Ethereum Foundation, Protocol Labs",
+    "amount": "$30,000 USD",
+  },
+  {
     "title": "A Conjecture of Bernhard Riemann",
     "link": "https://www.claymath.org/millennium-problems/riemann-hypothesis",
     "description": "It is widely believed that the zeroes of the Riemann zeta function lie on the line Re(z) = 1/2. Prove or disprove this conjecture.",
