@@ -4,7 +4,7 @@ const BOUNTIES = [
     "link": "https://legendreprf.org/bounties",
     "description": "We are interested in how resistant the Legendre pseudo-random function is to key recovery attacks, as well as any other interesting results on the Legendre PRF.",
     "setter": "Ethereum Foundation",
-    "amount": "$14,000 USD",
+    "amount": "$14,000 USD and 31 ETH",
   },
   {
     "title": "MiMC Hash Challenge",
@@ -14,11 +14,18 @@ const BOUNTIES = [
     "amount": "$30,000 USD",
   },
   {
-    "title": "Lorem ipsum dolor...",
-    "link": "https://loremipsum.io",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem donec. A iaculis at erat pellentesque. Et tortor at risus viverra adipiscing at in.",
-    "setter": "Lorem ipsum",
-    "amount": "$12 USD",
+    "title": "VDF FPGA competition",
+    "link": "https://supranational.atlassian.net/wiki/spaces/VA/pages/36569208/FPGA+Competition",
+    "description": "In order to build a good VDF ASIC, we need to try and have the fastest algorithm for modular squaring. To this end, we are currently running a series of competitions to improve the state of the art.",
+    "setter": "Supranational LLC on behalf of the VDF Alliance (Ethereum Foundation, Protocol Labs, Interchain Foundation, Tezos, Supranational)",
+    "amount": "$110,000 USD",
+  },
+  {
+    "title": "Ethereum Bounty Program",
+    "link": "https://bounty.ethereum.org/",
+    "description": "Bounties for finding vulnerabilities in core Ethereum infrastructure",
+    "setter": "Ethereum Foundation",
+    "amount": "Up to $25,000 USD per instance (critical bugs)",
   },
 ];
 
