@@ -8,7 +8,7 @@ const BOUNTIES = [
   },
   {
     "title": "MiMC Hash Challenge",
-    "link": "http://mimchash.org/",
+    "link": "https://mimchash.org/",
     "description": "Rewards for finding collisions in the MiMCSponge hash function.",
     "setter": "Ethereum Foundation, Protocol Labs",
     "amount": "$30,000 USD",
@@ -26,6 +26,20 @@ const BOUNTIES = [
     "description": "Bounties for finding vulnerabilities in core Ethereum infrastructure",
     "setter": "Ethereum Foundation",
     "amount": "Up to $25,000 USD per instance (critical bugs)",
+  },
+  {
+    "title": "Eth2.0 Phase 0 Bounties",
+    "link": "https://github.com/ethereum/eth2.0-specs/issues/1345",
+    "description": "Bounties for finding vulnerabilities in Eth2.0 phase 0",
+    "setter": "Ethereum Foundation",
+    "amount": "5 ETH or 1,000 DAI",
+  },
+  {
+    "title": "Starkware Hash Challenge",
+    "link": "https://starkware.co/hash-challenge",
+    "description": "Win bounties for finding collisions in new STARK-friendly hash functions",
+    "setter": "Starkware",
+    "amount": "227 ETH",
   },
 ];
 
