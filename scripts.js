@@ -35,11 +35,11 @@ const BOUNTIES = [
     "amount": "Up to $25,000 USD per instance (critical bugs)",
   },
   {
-    "title": "Eth2.0 Phase 0 Bounties",
-    "link": "https://github.com/ethereum/eth2.0-specs/issues/1345",
-    "description": "Bounties for finding vulnerabilities in Eth2.0 phase 0",
+    "title": "Eth2 Phase 0 Pre-Launch Bounty Program",
+    "link": "https://notes.ethereum.org/@djrtwo/phase0-bounty",
+    "description": "Bounties for finding vulnerabilities in the Eth2 Phase 0 specs",
     "setter": "Ethereum Foundation",
-    "amount": "5 ETH or 1,000 DAI",
+    "amount": "Up to $10,000 USD per instance (critical bugs)",
   },
   {
     "title": "Starkware Hash Challenge",
