@@ -17,19 +17,11 @@ const BOUNTIES = [
   },
   {
     title: "Ethereum Bounty Program",
-    link: "https://bounty.ethereum.org/",
+    link: "https://ethereum.org/en/bug-bounty/",
     description:
-      "Bounties for finding vulnerabilities in core Ethereum infrastructure",
+      "Bounties for finding vulnerabilities in core Ethereum infrastructure, including both execution and consensus layers.",
     setter: "Ethereum Foundation",
-    amount: "Up to $25,000 USD per instance (critical bugs)",
-  },
-  {
-    title: "Consensus Layer Bug Bounty Program",
-    link: "https://ethereum.org/en/upgrades/get-involved/bug-bounty/",
-    description:
-      "Bounties for finding bugs in the core consensus layer Beacon Chain specification and client implementations",
-    setter: "Ethereum Foundation",
-    amount: "Up to $50,000 USD per instance (critical bugs)",
+    amount: "Up to $250,000 USD per instance (critical bugs)",
   },
 ];
 
