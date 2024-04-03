@@ -1,21 +1,5 @@
 const BOUNTIES = [
   {
-    title: "RSA bounties",
-    link: "https://rsa.cash/bounties",
-    description:
-      "For the Verifiable Delay Function (VDF) project, the RSA Low Order and Adaptive Root assumptions have come into spotlight as they are required for the two VDF proof construction. Several bounties are available for proving or disproving the assumptions.",
-    setter: "Ethereum Foundation",
-    amount: "$36,000 USD and 29 ETH",
-  },
-  {
-    title: "Legendre PRF Bounties",
-    link: "https://legendreprf.org/bounties",
-    description:
-      "We are interested in how resistant the Legendre pseudo-random function is to key recovery attacks, as well as any other interesting results on the Legendre PRF.",
-    setter: "Ethereum Foundation",
-    amount: "$31,000 USD and 31 ETH",
-  },
-  {
     title: "Ethereum Bounty Program",
     link: "https://ethereum.org/en/bug-bounty/",
     description:
